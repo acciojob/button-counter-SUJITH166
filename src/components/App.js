@@ -6,6 +6,7 @@ const App = () => {
    const [count,setAdd] = useState(0)
   const onAdd = ()=>{
   setCount(count+1)
+  }
   return (
     <div>
         {/* Do not remove the main div */}
